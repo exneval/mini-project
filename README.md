@@ -40,6 +40,10 @@ $ cd mini-project
 $ php migration.php
 ```
 
+* Or directly import the sql file in `/sql/db.sql` to your database
+
+* Open database config file in `/cores/db/config.php` and edit `db_hostname`, `db_username`, `db_password` to match your database settings
+
 * Run PHP built-in webserver
 
 ```
